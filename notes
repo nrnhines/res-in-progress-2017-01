@@ -1,0 +1,21 @@
+Issues in high performance NEURON simulation
+
+Research in progess talks
+Jan 26, 2017
+30 minutes
+
+Introduction
+
+cluster threads
+load balance
+
+spike exchange
+
+cache line
+
+gpu
+ AoS SoA
+ permutation
+
+
+Before I get to the "in progress" I need to set the stage a bit.
