@@ -1,8 +1,12 @@
-Issues in high performance NEURON simulation
+Issues in high performance simulation of neurons and microcircuits
 
 Research in progess talks
 Jan 26, 2017
 30 minutes
+
+pngtopnm bulb3d.png > bulb3d.pnm
+pnmtops -width 10 -height 8 -noturn bulb3d.pnm > bulb3d.eps
+rm bulb3d.pnm
 
 Introduction
 
