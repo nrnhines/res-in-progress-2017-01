@@ -2,7 +2,7 @@
 %%Creator: idraw
 %%DocumentFonts: Helvetica-Bold
 %%Pages: 1
-%%BoundingBox: 43 97 652 500
+%%BoundingBox: 42 312 645 550
 %%EndComments
 
 %%BeginIdrawPrologue
@@ -504,25 +504,16 @@ Begin
 [ 0.747198 0 0 0.747198 0 0 ] concat
 /originalCTM matrix currentmatrix def
 
-Begin %I Pict
-%I b u
-%I cfg u
-%I cbg u
-%I f u
-%I p u
-%I t
-[ 3 0 0 3 -166 -1656 ] concat
-
 Begin %I Text
 %I cfg Black
 0 0 0 SetCFg
 %I f -*-helvetica-bold-r-normal-*-14-*-*-*-*-*-*-*
 Helvetica-Bold 14 SetF
 %I t
-[ 1 0 0 1 75 710 ] concat
+[ 3 0 0 3 66.5 726 ] concat
 %I
 [
-(Issues in high performance simulations)
+(Issues)
 ] Text
 End
 
@@ -532,25 +523,10 @@ Begin %I Text
 %I f -*-helvetica-bold-r-normal-*-14-*-*-*-*-*-*-*
 Helvetica-Bold 14 SetF
 %I t
-[ 1 0 0 1 111 693 ] concat
+[ 3 0 0 3 359.5 537 ] concat
 %I
 [
-(of neurons and microcircuits)
-] Text
-End
-
-End %I eop
-
-Begin %I Text
-%I cfg Black
-0 0 0 SetCFg
-%I f -*-helvetica-bold-r-normal-*-14-*-*-*-*-*-*-*
-Helvetica-Bold 14 SetF
-%I t
-[ 3 0 0 3 242 659 ] concat
-%I
-[
-(Research in progress)
+(Load balance)
 ] Text
 End
 
@@ -560,10 +536,10 @@ Begin %I Text
 %I f -*-helvetica-bold-r-normal-*-14-*-*-*-*-*-*-*
 Helvetica-Bold 14 SetF
 %I t
-[ 3 0 0 3 321.5 249 ] concat
+[ 3 0 0 3 58.5 610 ] concat
 %I
 [
-(Michael Hines)
+(Spike exchange)
 ] Text
 End
 
@@ -573,10 +549,10 @@ Begin %I Text
 %I f -*-helvetica-bold-r-normal-*-14-*-*-*-*-*-*-*
 Helvetica-Bold 14 SetF
 %I t
-[ 3 0 0 3 306.5 171 ] concat
+[ 3 0 0 3 628.5 458 ] concat
 %I
 [
-(\(Shepherd Lab\))
+(Data layout)
 ] Text
 End
 

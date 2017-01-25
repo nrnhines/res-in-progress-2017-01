@@ -1,8 +1,8 @@
 %!PS-Adobe-2.0 EPSF-1.2
 %%Creator: idraw
-%%DocumentFonts: Helvetica-Bold
+%%DocumentFonts: Helvetica-Bold Helvetica
 %%Pages: 1
-%%BoundingBox: 43 97 652 500
+%%BoundingBox: 42 120 645 550
 %%EndComments
 
 %%BeginIdrawPrologue
@@ -80,7 +80,7 @@ end
 /arrowHeight 11 def
 /arrowWidth 5 def
 
-/IdrawDict 51 dict def
+/IdrawDict 52 dict def
 IdrawDict begin
 
 /reencodeISO {
@@ -122,6 +122,7 @@ currentdict end definefont
 /yacute/thorn/ydieresis
 ] def
 /Helvetica-Bold reencodeISO def
+/Helvetica reencodeISO def
 
 /none null def
 /numGraphicParameters 17 def
@@ -504,25 +505,16 @@ Begin
 [ 0.747198 0 0 0.747198 0 0 ] concat
 /originalCTM matrix currentmatrix def
 
-Begin %I Pict
-%I b u
-%I cfg u
-%I cbg u
-%I f u
-%I p u
-%I t
-[ 3 0 0 3 -166 -1656 ] concat
-
 Begin %I Text
 %I cfg Black
 0 0 0 SetCFg
 %I f -*-helvetica-bold-r-normal-*-14-*-*-*-*-*-*-*
 Helvetica-Bold 14 SetF
 %I t
-[ 1 0 0 1 75 710 ] concat
+[ 3 0 0 3 66.5 726 ] concat
 %I
 [
-(Issues in high performance simulations)
+(Issues)
 ] Text
 End
 
@@ -532,25 +524,10 @@ Begin %I Text
 %I f -*-helvetica-bold-r-normal-*-14-*-*-*-*-*-*-*
 Helvetica-Bold 14 SetF
 %I t
-[ 1 0 0 1 111 693 ] concat
+[ 3 0 0 3 359.5 537 ] concat
 %I
 [
-(of neurons and microcircuits)
-] Text
-End
-
-End %I eop
-
-Begin %I Text
-%I cfg Black
-0 0 0 SetCFg
-%I f -*-helvetica-bold-r-normal-*-14-*-*-*-*-*-*-*
-Helvetica-Bold 14 SetF
-%I t
-[ 3 0 0 3 242 659 ] concat
-%I
-[
-(Research in progress)
+(Load balance)
 ] Text
 End
 
@@ -560,10 +537,10 @@ Begin %I Text
 %I f -*-helvetica-bold-r-normal-*-14-*-*-*-*-*-*-*
 Helvetica-Bold 14 SetF
 %I t
-[ 3 0 0 3 321.5 249 ] concat
+[ 3 0 0 3 58.5 610 ] concat
 %I
 [
-(Michael Hines)
+(Spike exchange)
 ] Text
 End
 
@@ -573,10 +550,75 @@ Begin %I Text
 %I f -*-helvetica-bold-r-normal-*-14-*-*-*-*-*-*-*
 Helvetica-Bold 14 SetF
 %I t
-[ 3 0 0 3 306.5 171 ] concat
+[ 3 0 0 3 628.5 458 ] concat
 %I
 [
-(\(Shepherd Lab\))
+(Data layout)
+] Text
+End
+
+Begin %I Text
+%I cfg Black
+0 0 0 SetCFg
+%I f -*-helvetica-bold-r-normal-*-14-*-*-*-*-*-*-*
+Helvetica-Bold 14 SetF
+%I t
+[ 3 0 0 3 111.5 402 ] concat
+%I
+[
+(Large Clusters)
+] Text
+End
+
+Begin %I Text
+%I cfg Black
+0 0 0 SetCFg
+%I f -*-helvetica-medium-r-normal-*-12-*-*-*-*-*-*-*
+Helvetica 12 SetF
+%I t
+[ 3 0 0 3 112.5 325 ] concat
+%I
+[
+(ANL: Blue Gene/Q )
+] Text
+End
+
+Begin %I Text
+%I cfg Black
+0 0 0 SetCFg
+%I f -*-helvetica-medium-r-normal-*-12-*-*-*-*-*-*-*
+Helvetica 12 SetF
+%I t
+[ 3 0 0 3 112.5 282 ] concat
+%I
+[
+(49152 nodes)
+] Text
+End
+
+Begin %I Text
+%I cfg Black
+0 0 0 SetCFg
+%I f -*-helvetica-medium-r-normal-*-12-*-*-*-*-*-*-*
+Helvetica 12 SetF
+%I t
+[ 3 0 0 3 112.5 239 ] concat
+%I
+[
+(16 cores/node)
+] Text
+End
+
+Begin %I Text
+%I cfg Black
+0 0 0 SetCFg
+%I f -*-helvetica-medium-r-normal-*-12-*-*-*-*-*-*-*
+Helvetica 12 SetF
+%I t
+[ 3 0 0 3 112.5 196 ] concat
+%I
+[
+(2 MPI processes/core)
 ] Text
 End
 

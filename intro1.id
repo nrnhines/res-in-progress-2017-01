@@ -1,8 +1,8 @@
 %!PS-Adobe-2.0 EPSF-1.2
 %%Creator: idraw
-%%DocumentFonts: Helvetica-Bold
+%%DocumentFonts: Helvetica-Bold Helvetica
 %%Pages: 1
-%%BoundingBox: 43 97 652 500
+%%BoundingBox: 89 215 612 518
 %%EndComments
 
 %%BeginIdrawPrologue
@@ -80,7 +80,7 @@ end
 /arrowHeight 11 def
 /arrowWidth 5 def
 
-/IdrawDict 51 dict def
+/IdrawDict 52 dict def
 IdrawDict begin
 
 /reencodeISO {
@@ -122,6 +122,7 @@ currentdict end definefont
 /yacute/thorn/ydieresis
 ] def
 /Helvetica-Bold reencodeISO def
+/Helvetica reencodeISO def
 
 /none null def
 /numGraphicParameters 17 def
@@ -504,25 +505,16 @@ Begin
 [ 0.747198 0 0 0.747198 0 0 ] concat
 /originalCTM matrix currentmatrix def
 
-Begin %I Pict
-%I b u
-%I cfg u
-%I cbg u
-%I f u
-%I p u
-%I t
-[ 3 0 0 3 -166 -1656 ] concat
-
 Begin %I Text
 %I cfg Black
 0 0 0 SetCFg
 %I f -*-helvetica-bold-r-normal-*-14-*-*-*-*-*-*-*
 Helvetica-Bold 14 SetF
 %I t
-[ 1 0 0 1 75 710 ] concat
+[ 3 0 0 3 125.5 683 ] concat
 %I
 [
-(Issues in high performance simulations)
+(NEURON simulation environment)
 ] Text
 End
 
@@ -532,25 +524,10 @@ Begin %I Text
 %I f -*-helvetica-bold-r-normal-*-14-*-*-*-*-*-*-*
 Helvetica-Bold 14 SetF
 %I t
-[ 1 0 0 1 111 693 ] concat
+[ 3 0 0 3 305.5 586 ] concat
 %I
 [
-(of neurons and microcircuits)
-] Text
-End
-
-End %I eop
-
-Begin %I Text
-%I cfg Black
-0 0 0 SetCFg
-%I f -*-helvetica-bold-r-normal-*-14-*-*-*-*-*-*-*
-Helvetica-Bold 14 SetF
-%I t
-[ 3 0 0 3 242 659 ] concat
-%I
-[
-(Research in progress)
+(neuron.yale.edu)
 ] Text
 End
 
@@ -560,23 +537,23 @@ Begin %I Text
 %I f -*-helvetica-bold-r-normal-*-14-*-*-*-*-*-*-*
 Helvetica-Bold 14 SetF
 %I t
-[ 3 0 0 3 321.5 249 ] concat
+[ 3 0 0 3 120.5 380 ] concat
 %I
 [
-(Michael Hines)
+(Supported by NINDS)
 ] Text
 End
 
 Begin %I Text
 %I cfg Black
 0 0 0 SetCFg
-%I f -*-helvetica-bold-r-normal-*-14-*-*-*-*-*-*-*
-Helvetica-Bold 14 SetF
+%I f -*-helvetica-medium-r-normal-*-12-*-*-*-*-*-*-*
+Helvetica 12 SetF
 %I t
-[ 3 0 0 3 306.5 171 ] concat
+[ 3 0 0 3 429.5 329 ] concat
 %I
 [
-(\(Shepherd Lab\))
+(year 41)
 ] Text
 End
 

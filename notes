@@ -24,3 +24,36 @@ gpu
 
 
 Before I get to the "in progress" I need to set the stage a bit.
+I'm interested in conceptual control of complex models.
+Traditionally NEURON has been used for models where cable properties
+and complex membrane properties are important.
+
+Argonne National Laboratory
+Mira   Blue Gene/Q
+786,432 cores  1 GB/core  
+Networks simulations exhibit linear speedup with 2 processes per core.
+This is the "easy" architecture to use effectively.
+
+TACC
+Stampede  Intel
+6400 nodes  2 intel 8 core + xeon phi 61 core
+If data is arranged properly each phi core can do 7 identical calculation
+in the time it normally takes to do 1.
+
+NCSA Illinos
+Blue Waters  Cray
+4200 NVIDIA Kepler GPU 2048 cores/gpu
+Groups of 32 cores execute same code on different data.
+
+
+Interleave order
+Keep identical trees together, in order of increasing size
+Work on groups of 32 cells. Last group may have fewer.
+From a root to leaf treeorder, pick the next node of each cell.
+
+Optimize parent node ordering
+Keep identical trees together, in order of increasing size
+Work on groups of 32 cells. Last group may have fewer.
+Order one level at a time beginning at roots.
+  All child1, all child2, ...
+
