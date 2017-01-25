@@ -1,0 +1,76 @@
+100k cells HH soma pas dend 2.1 million
+(note that mem2.id perf1 is 1000 101 compart pas cells )
+
+$ nrniv -python ringtest.py -nring 1000 -ncell 100 -branch 20 20 -tstop
+10 -coredat test1
+NEURON -- VERSION 7.5 (1506+:fb16c3041b17+) 2017-01-23
+Duke, Yale, and the BlueBrain Project -- Copyright 1984-2016
+See http://neuron.yale.edu/neuron/credits
+
+[20, 20] [1, 1]
+nring=1000
+cell per ring=100
+ncell_per_type=8
+ntype=12500
+created test1/
+44.51s created rings
+2100000 non-zero area compartments
+21.27s initialized
+1.81s wrote coreneuron data
+100.3s run
+0.02s wrote 3000 spikes
+runtime=100.3  load_balance=100.0%  avg_comp_time=100.301
+spk_time max=0 min=0
+gap_time max=0 min=0
+
+coreneuron_exec runs
+ Number of cells: 100000
+ Number of compartments: 4300000
+ Number of presyns: 101000
+ Number of input presyns: 0
+ Number of synapses: 101000
+ Number of point processes: 201000
+ Number of transfer (gap) targets: 0
+ Number of spikes: 4000
+ Number of spikes with non negative gid-s: 3000
+
+
+corenrnbuild -m modcore -s $HOME/bbgpu/coreneuron -i $HOME/bbgpu/install_viz\
+  -b cpuaos -aos -nopg
+cpuaos/bin/coreneuron_exec -d test1 -e 10
+Solver Time : 89.1635
+
+~/bbgpu/man*/corenrnbuild -m modcore -s $HOME/bbgpu/coreneuron -i $HOME/bbgpu/install_viz
+  -b cpusoa -nopg
+cpusoa/bin/coreneuron_exec -d test1 -e 10 --cell_permute=0
+Solver Time : 99.2992
+...--cell_permute=1
+Solver Time : 148.534
+
+corenrnbuild -m modcore -s $HOME/bbgpu/coreneuron -i $HOME/bbgpu/install_viz -b gpuaos -aos
+gpuaos/bin/coreneuron_exec -d test1 -e 10 --gpu
+Failed. AoS not supported on gpu
+Without the --gpu got
+Solver Time : 69.4465
+
+corenrnbuild -m modcore -s $HOME/bbgpu/coreneuron -i $HOME/bbgpu/install_viz -b gpusoa
+gpusoa/bin/coreneuron_exec -d test1 -e 10
+Solver Time : 69.3795
+gpusoa/bin/coreneuron_exec -d test1 -e 10 --cell_permute=1
+Solver Time : 99.7612
+gpusoa/bin/coreneuron_exec -d test1 -e 10 --cell_permute=0 --gpu
+Failed. not supported
+gpusoa/bin/coreneuron_exec -d test1 -e 10 --cell_permute=1 --gpu
+Solver Time : 4.68921
+gpusoa/bin/coreneuron_exec -d test1 -e 10 --cell_permute=2 --gpu
+Solver Time : 4.42026
+
+CPU
+AoS
+69.4
+SoA
+99.8
+
+GPU
+SoA
+4.69
