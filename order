@@ -23,5 +23,10 @@ mem[1-3].id
 
 8rancell.id
 interleave-opt-vs-cells-per-type.id
+treegauss*.id
+interleave*.id
+maxpar*.id
+attic/parpat3.id
+attic/parpat8.id
 
 ack.id
