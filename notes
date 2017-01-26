@@ -12,6 +12,10 @@ bulb3d.ps is smaller when do
 buildtalk bulb3d.eps
 pdf2ps 3dbulb.ps
 
+lpcat bstat.id bulb3d.ps
+mv /tmp/lpcat bulb3d-stat.ps
+and remove showpage at end of file
+
 Introduction
 
 cluster threads
