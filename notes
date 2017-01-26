@@ -8,6 +8,10 @@ pngtopnm bulb3d.png > bulb3d.pnm
 pnmtops -width 10 -height 8 -noturn bulb3d.pnm > bulb3d.eps
 rm bulb3d.pnm
 
+bulb3d.ps is smaller when do
+buildtalk bulb3d.eps
+pdf2ps 3dbulb.ps
+
 Introduction
 
 cluster threads
