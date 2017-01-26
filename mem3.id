@@ -1,8 +1,8 @@
 %!PS-Adobe-2.0 EPSF-1.2
 %%Creator: idraw
-%%DocumentFonts: Helvetica
+%%DocumentFonts: Helvetica Helvetica-Bold
 %%Pages: 1
-%%BoundingBox: 47 43 574 554
+%%BoundingBox: 47 43 633 554
 %%EndComments
 
 %%BeginIdrawPrologue
@@ -80,7 +80,7 @@ end
 /arrowHeight 11 def
 /arrowWidth 5 def
 
-/IdrawDict 51 dict def
+/IdrawDict 52 dict def
 IdrawDict begin
 
 /reencodeISO {
@@ -122,6 +122,7 @@ currentdict end definefont
 /yacute/thorn/ydieresis
 ] def
 /Helvetica reencodeISO def
+/Helvetica-Bold reencodeISO def
 
 /none null def
 /numGraphicParameters 17 def
@@ -1878,10 +1879,11 @@ Begin %I Pict
 %I b u
 %I cfg u
 %I cbg u
-%I f u
+%I f -*-helvetica-bold-r-normal-*-14-*-*-*-*-*-*-*
+Helvetica-Bold 14 SetF
 %I p u
 %I t
-[ 1 0 0 1 13.5016 -20.2525 ] concat
+[ 1.2 0 0 1.2 -59.804 -100.175 ] concat
 
 Begin %I Text
 %I cfg Black
@@ -1980,9 +1982,11 @@ Begin %I Pict
 %I b u
 %I cfg u
 %I cbg u
-%I f u
+%I f -*-helvetica-bold-r-normal-*-14-*-*-*-*-*-*-*
+Helvetica-Bold 14 SetF
 %I p u
-%I t u
+%I t
+[ 1.2 0 0 1.2 -70.9436 -109.593 ] concat
 
 Begin %I Text
 %I cfg Black
@@ -2062,6 +2066,32 @@ Helvetica 14 SetF
 End
 
 End %I eop
+
+Begin %I Text
+%I cfg Black
+0 0 0 SetCFg
+%I f -*-helvetica-medium-r-normal-*-14-*-*-*-*-*-*-*
+Helvetica 14 SetF
+%I t
+[ 1 0 0 1 597.763 591.279 ] concat
+%I
+[
+(Array of Structures)
+] Text
+End
+
+Begin %I Text
+%I cfg Black
+0 0 0 SetCFg
+%I f -*-helvetica-medium-r-normal-*-14-*-*-*-*-*-*-*
+Helvetica 14 SetF
+%I t
+[ 1 0 0 1 597.763 250.428 ] concat
+%I
+[
+(Structure of Arrays)
+] Text
+End
 
 End %I eop
 

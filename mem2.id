@@ -1,8 +1,8 @@
 %!PS-Adobe-2.0 EPSF-1.2
 %%Creator: idraw
-%%DocumentFonts: Helvetica
+%%DocumentFonts: Helvetica Helvetica-Bold
 %%Pages: 1
-%%BoundingBox: 47 43 574 554
+%%BoundingBox: 47 43 633 554
 %%EndComments
 
 %%BeginIdrawPrologue
@@ -80,7 +80,7 @@ end
 /arrowHeight 11 def
 /arrowWidth 5 def
 
-/IdrawDict 51 dict def
+/IdrawDict 52 dict def
 IdrawDict begin
 
 /reencodeISO {
@@ -122,6 +122,7 @@ currentdict end definefont
 /yacute/thorn/ydieresis
 ] def
 /Helvetica reencodeISO def
+/Helvetica-Bold reencodeISO def
 
 /none null def
 /numGraphicParameters 17 def
@@ -1862,14 +1863,27 @@ End %I eop
 
 End %I eop
 
+Begin %I Text
+%I cfg Black
+0 0 0 SetCFg
+%I f -*-helvetica-medium-r-normal-*-14-*-*-*-*-*-*-*
+Helvetica 14 SetF
+%I t
+[ 1 0 0 1 310.97 98.9667 ] concat
+%I
+[
+] Text
+End
+
 Begin %I Pict
 %I b u
 %I cfg u
 %I cbg u
-%I f u
+%I f -*-helvetica-bold-r-normal-*-14-*-*-*-*-*-*-*
+Helvetica-Bold 14 SetF
 %I p u
 %I t
-[ 1 0 0 1 20.2525 -35.4418 ] concat
+[ 1.2 0 0 1.2 -70.9436 -109.593 ] concat
 
 Begin %I Text
 %I cfg Black
@@ -1877,7 +1891,7 @@ Begin %I Text
 %I f -*-helvetica-medium-r-normal-*-14-*-*-*-*-*-*-*
 Helvetica 14 SetF
 %I t
-[ 1 0 0 1 300 429 ] concat
+[ 1 0 0 1 320.253 393.558 ] concat
 %I
 [
 ] Text
@@ -1889,20 +1903,7 @@ Begin %I Text
 %I f -*-helvetica-medium-r-normal-*-14-*-*-*-*-*-*-*
 Helvetica 14 SetF
 %I t
-[ 1 0 0 1 300 487.134 ] concat
-%I
-[
-(1      30.35      3.16)
-] Text
-End
-
-Begin %I Text
-%I cfg Black
-0 0 0 SetCFg
-%I f -*-helvetica-medium-r-normal-*-14-*-*-*-*-*-*-*
-Helvetica 14 SetF
-%I t
-[ 1 0 0 1 300 453.402 ] concat
+[ 1 0 0 1 320.253 417.96 ] concat
 %I
 [
 (4        7.05      0.74)
@@ -1915,7 +1916,7 @@ Begin %I Text
 %I f -*-helvetica-medium-r-normal-*-14-*-*-*-*-*-*-*
 Helvetica 14 SetF
 %I t
-[ 1 0 0 1 300 436.536 ] concat
+[ 1 0 0 1 320.253 401.094 ] concat
 %I
 [
 (8        4.28      0.46)
@@ -1928,7 +1929,7 @@ Begin %I Text
 %I f -*-helvetica-medium-r-normal-*-14-*-*-*-*-*-*-*
 Helvetica 14 SetF
 %I t
-[ 1 0 0 1 300 470.268 ] concat
+[ 1 0 0 1 320.253 434.826 ] concat
 %I
 [
 (2      12.44      1.40)
@@ -1941,14 +1942,53 @@ Begin %I Text
 %I f -*-helvetica-medium-r-normal-*-14-*-*-*-*-*-*-*
 Helvetica 14 SetF
 %I t
-[ 1 0 0 1 300 504 ] concat
+[ 1 0 0 1 320.253 468.558 ] concat
 %I
 [
 (nt    Scatter     AoS)
 ] Text
 End
 
+Begin %I Text
+%I cfg Black
+0 0 0 SetCFg
+%I f -*-helvetica-medium-r-normal-*-14-*-*-*-*-*-*-*
+Helvetica 14 SetF
+%I t
+[ 1 0 0 1 320.253 451.692 ] concat
+%I
+[
+(1      30.35      3.16s)
+] Text
+End
+
 End %I eop
+
+Begin %I Text
+%I cfg Black
+0 0 0 SetCFg
+%I f -*-helvetica-medium-r-normal-*-14-*-*-*-*-*-*-*
+Helvetica 14 SetF
+%I t
+[ 1 0 0 1 597.763 591.279 ] concat
+%I
+[
+(Array of Structures)
+] Text
+End
+
+Begin %I Text
+%I cfg Black
+0 0 0 SetCFg
+%I f -*-helvetica-medium-r-normal-*-14-*-*-*-*-*-*-*
+Helvetica 14 SetF
+%I t
+[ 1 0 0 1 597.763 250.428 ] concat
+%I
+[
+(Structure of Arrays)
+] Text
+End
 
 End %I eop
 

@@ -13,14 +13,15 @@ bulb3d.ps
 2glom_dend.id
 1mitral_gran.id
 
-bbperf.id
-bbhist.id
 slide16.id
+bbhist.id
 cxout1.id
 cxout2.id
+bbperf.id
 
 mem[1-3].id
 
 attic/8rancell.id
+interleave-opt-vs-cells-per-type.id
 
 ack.id

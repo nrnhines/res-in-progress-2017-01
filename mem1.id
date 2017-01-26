@@ -2,7 +2,7 @@
 %%Creator: idraw
 %%DocumentFonts: Helvetica
 %%Pages: 1
-%%BoundingBox: 47 43 574 552
+%%BoundingBox: 47 43 633 554
 %%EndComments
 
 %%BeginIdrawPrologue
@@ -1861,6 +1861,44 @@ End
 End %I eop
 
 End %I eop
+
+Begin %I Text
+%I cfg Black
+0 0 0 SetCFg
+%I f -*-helvetica-medium-r-normal-*-14-*-*-*-*-*-*-*
+Helvetica 14 SetF
+%I t
+[ 1 0 0 1 310.97 98.9667 ] concat
+%I
+[
+] Text
+End
+
+Begin %I Text
+%I cfg Black
+0 0 0 SetCFg
+%I f -*-helvetica-medium-r-normal-*-14-*-*-*-*-*-*-*
+Helvetica 14 SetF
+%I t
+[ 1 0 0 1 597.763 591.279 ] concat
+%I
+[
+(Array of Structures)
+] Text
+End
+
+Begin %I Text
+%I cfg Black
+0 0 0 SetCFg
+%I f -*-helvetica-medium-r-normal-*-14-*-*-*-*-*-*-*
+Helvetica 14 SetF
+%I t
+[ 1 0 0 1 597.763 250.428 ] concat
+%I
+[
+(Structure of Arrays)
+] Text
+End
 
 End %I eop
 
