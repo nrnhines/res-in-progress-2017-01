@@ -78,7 +78,7 @@ end
 %%EndIdrawPrologue
 
 /arrowHeight 11 def
-/arrowWidth 6 def
+/arrowWidth 5 def
 
 /IdrawDict 51 dict def
 IdrawDict begin
@@ -3547,7 +3547,7 @@ Begin %I Poly
 %I p
 1 SetP
 %I t
-[ 0.0004443 0 0 1e-04 34.736 8.104 ] concat
+[ 0.0004443 0 0 0.0001 34.736 8.104 ] concat
 %I 4
 0 0
 0 10000
@@ -5374,7 +5374,7 @@ Begin %I Poly
 %I p
 1 SetP
 %I t
-[ 1e-04 0 0 0.0007222 78.703 7.827 ] concat
+[ 0.0001 0 0 0.0007222 78.703 7.827 ] concat
 %I 4
 0 9999
 10000 9999
@@ -5954,7 +5954,7 @@ Begin %I Poly
 %I p
 1 SetP
 %I t
-[ 0.000222 0 0 1e-04 49.537 13.623 ] concat
+[ 0.000222 0 0 0.0001 49.537 13.623 ] concat
 %I 4
 10000 10000
 10000 0
@@ -6418,7 +6418,7 @@ Begin %I Poly
 %I p
 1 SetP
 %I t
-[ 0.000918 0 0 1e-04 80.64 4.181 ] concat
+[ 0.000918 0 0 0.0001 80.64 4.181 ] concat
 %I 4
 0 0
 0 10000
@@ -11087,7 +11087,7 @@ Begin %I Poly
 %I p
 1 SetP
 %I t
-[ 1e-04 0 0 0.0008893 -43.205 13.017 ] concat
+[ 0.0001 0 0 0.0008893 -43.205 13.017 ] concat
 %I 4
 0 10000
 10000 10000
@@ -14625,7 +14625,7 @@ Begin %I Poly
 %I p
 1 SetP
 %I t
-[ 0.000278 0 0 1e-04 126.217 67.923 ] concat
+[ 0.000278 0 0 0.0001 126.217 67.923 ] concat
 %I 4
 0 0
 0 10000
@@ -20831,7 +20831,7 @@ Begin %I Poly
 %I p
 1 SetP
 %I t
-[ 0.000111 0 0 1e-04 -87.212 63.237 ] concat
+[ 0.000111 0 0 0.0001 -87.212 63.237 ] concat
 %I 4
 10000 10000
 10000 0
@@ -26080,7 +26080,7 @@ Begin %I Poly
 %I p
 1 SetP
 %I t
-[ 0.0003885 0 0 1e-04 -50.07 137.9 ] concat
+[ 0.0003885 0 0 0.0001 -50.07 137.9 ] concat
 %I 4
 0 0
 0 10000
@@ -30024,7 +30024,7 @@ Begin %I Poly
 %I p
 1 SetP
 %I t
-[ 1e-04 0 0 0.000722 -102.141 150.396 ] concat
+[ 0.0001 0 0 0.000722 -102.141 150.396 ] concat
 %I 4
 0 10000
 10000 10000
@@ -33098,7 +33098,7 @@ Begin %I Poly
 %I p
 1 SetP
 %I t
-[ 0.0018018 0 0 1e-04 47.838 113.288 ] concat
+[ 0.0018018 0 0 0.0001 47.838 113.288 ] concat
 %I 4
 0 0
 0 10000
@@ -38666,7 +38666,7 @@ Begin %I Poly
 %I p
 1 SetP
 %I t
-[ 0.0008332 0 0 1e-04 109.446 251.006 ] concat
+[ 0.0008332 0 0 0.0001 109.446 251.006 ] concat
 %I 4
 0 0
 0 10000
@@ -48901,6 +48901,19 @@ Helvetica 12 SetF
 %I
 [
 (0.82)
+] Text
+End
+
+Begin %I Text
+%I cfg Black
+0 0 0 SetCFg
+%I f -*-helvetica-medium-r-normal-*-12-*-*-*-*-*-*-*
+Helvetica 12 SetF
+%I t
+[ 2 0 0 2 385.107 645.561 ] concat
+%I
+[
+(Load Balance)
 ] Text
 End
 
